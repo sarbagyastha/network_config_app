@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false"/>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- List the domains for which you want opt out ensuring HTTPS traffic -->
+        <domain>10.0.2.2</domain>
+        <domain>insecure.example.com</domain>
+    </domain-config>
+</network-security-config>
